@@ -24,6 +24,7 @@ async function montaPokemon(data){
     pokemonId.innerHTML = pokeDados.id;
     pokeDados.abilities.forEach((item) => {
         let itemAbility = document.createElement("li");
+        itemAbility.classList.add('list-group-item');
         itemAbility.innerHTML = item.ability.name;
         pokemonList.appendChild(itemAbility);
     })

@@ -19,18 +19,8 @@ body{
 p{
     margin-bottom: 0 !important;
 }
-/* .refresh{
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-} */
-/* .pokemonId{
-    position: absolute;
-    top: 0.5rem;
-    right: 0;
-} */
+
 .card{
     background: rgba(255, 255, 255, 0.435) !important;
     backdrop-filter: blur(0.3rem) !important;
-    padding: 10px;
 }

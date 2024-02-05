@@ -11,24 +11,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
     <title>.:Pokemon:.</title>
 </head>
-<body class="d-flex align-items-center justify-content-center ">
-    <div class="card col-12 col-md-5 position-relative">
-        <a href="index.html" class="refresh  btn btn-success rounded-circle position-absolute top-0 end-0"><i class="fa-solid fa-arrows-rotate"></i></a>
-        <div class="row">
-            <div class="col-12 col-sm-6">
-                <h5 class="pokemonName"></h5>
-                <span class="pokemonId badge bg-success"></span>
-                <p>Habilidades</p>
-                <ul id="pokemonList">
-                </ul>
-            </div>
-            <div class="col-12 col-sm-6">
-                <img class="pokemonImg" src="" alt="" height="80%" width="80%">
+<body class="d-flex align-items-center justify-content-center">
+    <div class="row position-relative bg-white bg-opacity-75 rounded-3 border border-dark-subtle">
+        <a href="index.html" class="btn btn-success rounded-circle position-absolute top-0 start-100 translate-middle" style="width: min-content; z-index: 3;"><i class="fa-solid fa-arrows-rotate"></i></a>
+        <div class="col-6 p-2">
+            <h5 class="pokemonName"></h5>
+            <span class="pokemonId badge bg-success"></span>
+            <hr>
+            <p>Habilidades</p>
+            <ul id="pokemonList" class="list-group">
+            </ul>
+            <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
+                <img class="pokemonImg" src="" alt="" width="200px">
             </div>
         </div>
-        <div class="card">
-            <h5>Atributos</h5>
-            <div class="" id="atribut">
+        <div class="col-6 p-2">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Atributos</h5>
+                </div>
+                <div class="card-body" id="atribut">
+                </div>
             </div>
         </div>
     </div>
